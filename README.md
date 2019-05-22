@@ -27,7 +27,7 @@ func main() {
 	fmt.Println("This is first go!")
 
 三、编译
-目录下命令执行编译：go build .\HelloWorld.go
-生成HelloWorld.exe
+目录下命令执行编译：go build .\HelloWorld.go;
+生成HelloWorld.exe可执行文件
 
 四、同步更新github代码
