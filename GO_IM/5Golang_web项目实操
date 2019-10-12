@@ -1,0 +1,14 @@
+web http编程核心API
+1、
+//请求格式和处理函数绑定
+func HandleFunc(
+pattern string,//请求格式，如http://localhost/user/login
+handler func(ResponseWriter,*Request)//处理函数
+）
+
+2、
+//启动服务器
+func ListerAandServe(
+addr string,//地址如：8080
+handler Handler//
+)
