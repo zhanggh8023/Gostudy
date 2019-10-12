@@ -14,7 +14,7 @@ type Animal interface {
 }
 type Cat struct {
 	name string
-	age int
+	age  int
 	addr string
 }
 
@@ -25,6 +25,7 @@ func main() {
 	fmt.Print(animal)
 	fmt.Printf("%v, %v\n", ok, animal)
 }
+
 //Go语言的函数可以一次返回多个结果。这就为我们温和地报告错误提供了语言级别的支持。实际上，这也是Go语言中处理错误的惯用法之一。我们先来回顾前一小节的例子：
 
 //func readFile(path string) ([]byte, error) {
