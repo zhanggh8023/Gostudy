@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25b438e9-c841-420c-8ca9-1fe1639b8c98" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/GO_IM/one/能学到什么.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_errors/error.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一课go语言特点/first_class.go" beforeDir="false" afterPath="$PROJECT_DIR$/第一课go语言特点/first_class.go" afterDir="false" />
-    </list>
+    <list default="true" id="25b438e9-c841-420c-8ca9-1fe1639b8c98" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +66,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,7 +89,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -112,15 +106,15 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Gostudy\GO_IM" />
+      <recent name="D:\Gostudy\GO_IM\two" />
+      <recent name="D:\Gostudy\GO_IM\one" />
+      <recent name="D:\Gostudy\初学" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Gostudy\GO_IM\3" />
       <recent name="D:\Gostudy\GO_IM" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Gostudy\GO_IM\two" />
-      <recent name="D:\Gostudy\GO_IM" />
-      <recent name="D:\Gostudy\GO_IM\one" />
-      <recent name="D:\Gostudy\初学" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -207,7 +201,7 @@
   <component name="ToolWindowManager">
     <frame x="981" y="0" width="949" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23509562" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24071991" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -231,6 +225,31 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.3295838" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24071991" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329235" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925372" weight="0.2584885" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329235" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32858709" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50074625" side_tool="true" weight="0.32713348" />
+      <window_info anchor="bottom" id="运行" order="11" weight="0.26258206" />
+      <window_info anchor="bottom" id="调试" order="12" />
+      <window_info anchor="bottom" id="找到" order="13" weight="0.32932165" />
+      <window_info anchor="bottom" id="消息" order="14" weight="0.32894737" />
+      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3295838" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -248,17 +267,17 @@
     <entry file="file://$PROJECT_DIR$/hh.go" />
     <entry file="file://$PROJECT_DIR$/3.go" />
     <entry file="file://$PROJECT_DIR$/初学/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="307">
             <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -294,65 +313,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GO_IM/chat/hello/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="59" column="15" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GO_IM/chat/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="440">
-            <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go_errors/error.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GO_IM/chat/hello6.1/ctrl/chat.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GO_IM/chat/hello6.1/ctrl/attach.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GO_IM/chat/hello6.1/service/user.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GO_IM/chat/hello6.1/service/init.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GO_IM/chat/hello6.1/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-258">
-          <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/GO_IM/chat/hello/main.go" />
+    <entry file="file://$PROJECT_DIR$/GO_IM/chat/README.md" />
+    <entry file="file://$PROJECT_DIR$/go_errors/error.go" />
+    <entry file="file://$PROJECT_DIR$/GO_IM/chat/hello6.1/ctrl/chat.go" />
+    <entry file="file://$PROJECT_DIR$/GO_IM/chat/hello6.1/ctrl/attach.go" />
+    <entry file="file://$PROJECT_DIR$/GO_IM/chat/hello6.1/service/user.go" />
+    <entry file="file://$PROJECT_DIR$/GO_IM/chat/hello6.1/service/init.go" />
+    <entry file="file://$PROJECT_DIR$/GO_IM/chat/hello6.1/main.go" />
   </component>
   <component name="masterDetails">
     <states>
