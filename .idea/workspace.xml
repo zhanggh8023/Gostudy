@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25b438e9-c841-420c-8ca9-1fe1639b8c98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GO_IM/IM/hello/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IM/IM/hello/view/user/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GO_IM/IM/hello/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/GO_IM/IM/hello/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GO_IM/IM/hello/pkg/mod/cache/download/github.com/go-sql-driver/mysql/@v/list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GO_IM/IM/hello/pkg/mod/cache/download/github.com/go-sql-driver/mysql/@v/list.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GO_IM/IM/hello/pkg/mod/cache/download/github.com/go-sql-driver/mysql/@v/v1.4.1.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GO_IM/IM/hello/pkg/mod/cache/download/github.com/go-sql-driver/mysql/@v/v1.4.1.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GO_IM/IM/hello/pkg/mod/cache/lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,8 +50,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GO_IM/IM/hello/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="76" column="13" lean-forward="true" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+            <state relative-caret-position="399">
+              <caret line="90" column="41" selection-start-line="90" selection-start-column="41" selection-end-line="90" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GO_IM/IM/hello/view/user/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="27" selection-start-column="10" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -57,6 +71,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -85,6 +100,7 @@
         <option value="$PROJECT_DIR$/go_errors/error.go" />
         <option value="$PROJECT_DIR$/GO_IM/chat/hello6.1/service/init.go" />
         <option value="$PROJECT_DIR$/GO_IM/chat/hello6.1/ctrl/chat.go" />
+        <option value="$PROJECT_DIR$/GO_IM/IM/hello/view/user/login.html" />
         <option value="$PROJECT_DIR$/GO_IM/IM/hello/main.go" />
       </list>
     </option>
@@ -128,6 +144,23 @@
             </path>
             <path>
               <item name="Gostudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gostudy" type="462c0819:PsiDirectoryNode" />
+              <item name="GO_IM" type="462c0819:PsiDirectoryNode" />
+              <item name="IM" type="462c0819:PsiDirectoryNode" />
+              <item name="hello" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gostudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gostudy" type="462c0819:PsiDirectoryNode" />
+              <item name="GO_IM" type="462c0819:PsiDirectoryNode" />
+              <item name="IM" type="462c0819:PsiDirectoryNode" />
+              <item name="hello" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gostudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -138,6 +171,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="GO_FMT" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -214,20 +248,20 @@
   <component name="ToolWindowManager">
     <frame x="1145" y="0" width="785" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918434" weight="0.3089655" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918434" weight="0.39448276" />
       <window_info id="Structure" order="1" sideWeight="0.5008157" side_tool="true" weight="0.27257383" />
       <window_info id="Favorites" order="2" sideWeight="0.5008157" side_tool="true" weight="0.27257383" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329235" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925372" weight="0.2573932" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.30996713" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30887187" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329235" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" x="1175" y="374" width="725" height="298" id="Terminal" order="9" visible="true" weight="0.32092005" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50074625" side_tool="true" weight="0.32713348" />
+      <window_info active="true" anchor="bottom" x="1175" y="374" width="725" height="298" id="Terminal" order="9" sideWeight="0.49793103" visible="true" weight="0.29791895" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50206894" side_tool="true" weight="0.29791895" />
       <window_info anchor="bottom" id="运行" order="11" weight="0.26258206" />
       <window_info anchor="bottom" id="调试" order="12" />
       <window_info anchor="bottom" id="找到" order="13" weight="0.32932165" />
@@ -353,27 +387,8 @@
     <entry file="file://$PROJECT_DIR$/GO_IM/IM/hello/asset/js/util.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/GO_IM/IM/hello/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go.mod">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/go.sum">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GO_IM/chat/hello/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
-          <folding>
-            <element signature="e#14#121#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GO_IM/5Golang_web项目实操">
       <provider selected="true" editor-type-id="text-editor">
@@ -389,10 +404,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/go.mod">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GO_IM/IM/hello/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" lean-forward="true" selection-end-line="68" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GO_IM/chat/hello/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-750">
+          <folding>
+            <element signature="e#14#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GO_IM/IM/hello/view/user/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GO_IM/IM/hello/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="76" column="13" lean-forward="true" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+        <state relative-caret-position="399">
+          <caret line="90" column="41" selection-start-line="90" selection-start-column="41" selection-end-line="90" selection-end-column="41" />
         </state>
       </provider>
     </entry>

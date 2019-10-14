@@ -11,6 +11,7 @@ package main
 
 import (
 	"encoding/json"
+	"html/template"
 	"io"
 	"log"
 	"net/http"
@@ -79,10 +80,23 @@ func main() {
 	http.HandleFunc("/user/login",userLogin)
 
 	//1、提供静态资源目录支持
-	http.Handle("/",http.FileServer(http.Dir("D:/Gostudy/GO_IM/IM/hello/")))
+	//http.Handle("/",http.FileServer(http.Dir("D:/Gostudy/GO_IM/IM/hello/")))
 	//2、提供指定目录的静态文件支持
 	//fmt.Println(http.Dir("D:/Gostudy/GO_IM/IM/hello/"))
-	//http.Handle("/asset/",http.FileServer(http.Dir("D:/Gostudy/GO_IM/IM/hello/")))
+	http.Handle("/asset/",http.FileServer(http.Dir("D:/Gostudy/GO_IM/IM/hello/")))
+
+	//user/login.shtml
+	http.HandleFunc("/user/login.shtml", func(w http.ResponseWriter, r *http.Request) {
+		//解析
+		tpl,err := template.ParseFiles("D:/Gostudy/GO_IM/IM/hello/view/user/login.html")
+		if nil != err{
+			//打印并直接退出
+			log.Fatal(err.Error())
+		}
+		tpl.ExecuteTemplate(w,"/user/login.shtml",nil)
+	})
+
+
 	//启动web服务器
 	_ = http.ListenAndServe(":8085", nil)
 }
