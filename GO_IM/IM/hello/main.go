@@ -17,7 +17,7 @@ import (
 	"net/http"
 )
 
-func userLogin(writer http.ResponseWriter,request *http.Request) {
+func userLogin(writer http.ResponseWriter, request *http.Request) {
 	//数据库操作
 	//逻辑处理
 	//restapi json/ xml返回
@@ -33,14 +33,14 @@ func userLogin(writer http.ResponseWriter,request *http.Request) {
 	if mobile == "18600000000" && passwd == "123456" {
 		loginok = true
 	}
-	if loginok{
+	if loginok {
 		//｛"id":1,"token":"xx"｝
 		data := make(map[string]interface{})
-		data["id"]=1
-		data["token"]="test"
-		Resp(writer,0,data,"")
-	}else {
-		Resp(writer,-1,nil,"密码不正确！")
+		data["id"] = 1
+		data["token"] = "test"
+		Resp(writer, 0, data, "")
+	} else {
+		Resp(writer, -1, nil, "密码不正确！")
 	}
 
 	//如何返回json
@@ -48,55 +48,82 @@ func userLogin(writer http.ResponseWriter,request *http.Request) {
 }
 
 type H struct {
-	Code int `json:"code"`//当返回json首字母大写，可转为小写
-	Msg string `json:"msg"`
-	Data interface{} `json:"data,omitempty"`//*omitempty data为空时不显示
+	Code int         `json:"code"` //当返回json首字母大写，可转为小写
+	Msg  string      `json:"msg"`
+	Data interface{} `json:"data,omitempty"` //*omitempty data为空时不显示
 }
 
-func Resp(w http.ResponseWriter,code int,data interface{},msg string){
+func Resp(w http.ResponseWriter, code int, data interface{}, msg string) {
 	//设置header 为json  默认的text/html，所以特别指出返回为application/json
 	w.Header().Set("Content-Type", "application/json")
 	//设置状态200
 	w.WriteHeader(http.StatusOK)
 	//输出
 	//定义一个结构体
-	h :=H{
-		Code:code,
-		Msg:msg,
-		Data:data,
+	h := H{
+		Code: code,
+		Msg:  msg,
+		Data: data,
 	}
 	//将结构体转化成json字符串
-		ret,err :=json.Marshal(h)
-		if err !=nil{
-			log.Println(err.Error())
-		}
+	ret, err := json.Marshal(h)
+	if err != nil {
+		log.Println(err.Error())
+	}
 	//输出
 	_, _ = w.Write(ret)
 	//返回json ok
 }
 
+func RegisterView() {
+	//解析
+	tpl, err := template.ParseGlob("D:/Gostudy/GO_IM/IM/hello/view/**/*")
+	//如果报错就不要继续了
+	if nil != err {
+		//打印并直接退出
+		log.Fatal(err.Error())
+	}
+	for _, v := range tpl.Templates() {
+		tplname := v.Name()
+
+		http.HandleFunc(tplname, func(writer http.ResponseWriter, request *http.Request) {
+			tpl.ExecuteTemplate(writer, tplname, nil)
+		})
+	}
+}
+
 func main() {
 	//绑定请求和处理函数
-	http.HandleFunc("/user/login",userLogin)
+	http.HandleFunc("/user/login", userLogin)
 
 	//1、提供静态资源目录支持
 	//http.Handle("/",http.FileServer(http.Dir("D:/Gostudy/GO_IM/IM/hello/")))
 	//2、提供指定目录的静态文件支持
 	//fmt.Println(http.Dir("D:/Gostudy/GO_IM/IM/hello/"))
-	http.Handle("/asset/",http.FileServer(http.Dir("D:/Gostudy/GO_IM/IM/hello/")))
+	http.Handle("/asset/", http.FileServer(http.Dir("D:/Gostudy/GO_IM/IM/hello/")))
 
 	//user/login.shtml
-	http.HandleFunc("/user/login.shtml", func(w http.ResponseWriter, r *http.Request) {
-		//解析
-		tpl,err := template.ParseFiles("D:/Gostudy/GO_IM/IM/hello/view/user/login.html")
-		if nil != err{
-			//打印并直接退出
-			log.Fatal(err.Error())
-		}
-		tpl.ExecuteTemplate(w,"/user/login.shtml",nil)
-	})
+	//http.HandleFunc("/user/login.shtml", func(w http.ResponseWriter, r *http.Request) {
+	//	//解析
+	//	tpl,err := template.ParseFiles("D:/Gostudy/GO_IM/IM/hello/view/user/login.html")
+	//	if nil != err{
+	//		//打印并直接退出
+	//		log.Fatal(err.Error())
+	//	}
+	//	tpl.ExecuteTemplate(w,"/user/login.shtml",nil)
+	//})
+	////注册
+	//http.HandleFunc("/user/register.shtml", func(w http.ResponseWriter, r *http.Request) {
+	//	//解析
+	//	tpl,err := template.ParseFiles("D:/Gostudy/GO_IM/IM/hello/view/user/register.html")
+	//	if nil != err{
+	//		//打印并直接退出
+	//		log.Fatal(err.Error())
+	//	}
+	//	tpl.ExecuteTemplate(w,"/user/register.shtml",nil)
+	//})
 
-
+	RegisterView()
 	//启动web服务器
 	_ = http.ListenAndServe(":8085", nil)
 }
