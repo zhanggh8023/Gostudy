@@ -11,6 +11,10 @@ package main
 
 import (
 	"encoding/json"
+	"fmt"
+	//下划线:当导入一个包时，该包下的文件里所有init函数都会被执行
+	_ "github.com/go-sql-driver/mysql"
+	"github.com/go-xorm/xorm"
 	"html/template"
 	"io"
 	"log"
@@ -18,13 +22,8 @@ import (
 )
 
 func userLogin(writer http.ResponseWriter, request *http.Request) {
-	//数据库操作
-	//逻辑处理
-	//restapi json/ xml返回
-	//1、获取前端传递的参数
+
 	//mobile,passwd
-	//解析参数
-	//如何获得参数
 	_ = request.ParseForm()
 	mobile := request.PostForm.Get("mobile")
 	passwd := request.PostForm.Get("passwd")
@@ -38,21 +37,46 @@ func userLogin(writer http.ResponseWriter, request *http.Request) {
 		data := make(map[string]interface{})
 		data["id"] = 1
 		data["token"] = "test"
-		Resp(writer, 0, data, "")
+		Resp(writer, 0, data, "Success!")
 	} else {
-		Resp(writer, -1, nil, "密码不正确！")
+		Resp(writer, -1, nil, "密码不正确!")
 	}
 
 	//如何返回json
-	_, _ = io.WriteString(writer, "hello,world!")
+	_, _ = io.WriteString(writer, "hello,world！")
 }
 
+//数据库操作
+//安装工具：go get github.com/go-xorm/xorm
+//安装驱动：go get github.com/go-sql-driver/mysql
+var DbEngin *xorm.Engine
+
+func init() {
+	drivename := "mysql"
+	DsName := "root:root@(127.0.0.1:3306)/chat?charset=utf8"
+	DbEngin, err := xorm.NewEngine(drivename, DsName)
+	if nil != err {
+		log.Fatal(err.Error())
+	}
+	//是否显示sql语句
+	DbEngin.ShowSQL(true)
+	//数据库最大打开的连接数
+	DbEngin.SetMaxOpenConns(2)
+
+	//自动User创建
+	//DbEngin.Sync2(new(User))
+	fmt.Println("init data base ok")
+}
+
+//逻辑处理
 type H struct {
 	Code int         `json:"code"` //当返回json首字母大写，可转为小写
 	Msg  string      `json:"msg"`
 	Data interface{} `json:"data,omitempty"` //*omitempty data为空时不显示
 }
 
+//restapi json/ xml返回
+//1、获取前端传递的参数
 func Resp(w http.ResponseWriter, code int, data interface{}, msg string) {
 	//设置header 为json  默认的text/html，所以特别指出返回为application/json
 	w.Header().Set("Content-Type", "application/json")
@@ -75,6 +99,8 @@ func Resp(w http.ResponseWriter, code int, data interface{}, msg string) {
 	//返回json ok
 }
 
+//解析参数
+//如何获得参数
 func RegisterView() {
 	//解析
 	tpl, err := template.ParseGlob("D:/Gostudy/GO_IM/IM/hello/view/**/*")
@@ -85,9 +111,9 @@ func RegisterView() {
 	}
 	for _, v := range tpl.Templates() {
 		tplname := v.Name()
-
+		//fmt.Println(tplname)
 		http.HandleFunc(tplname, func(writer http.ResponseWriter, request *http.Request) {
-			tpl.ExecuteTemplate(writer, tplname, nil)
+			_ = tpl.ExecuteTemplate(writer, tplname, nil)
 		})
 	}
 }
