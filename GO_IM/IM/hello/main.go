@@ -11,10 +11,6 @@ package main
 
 import (
 	"encoding/json"
-	"fmt"
-	//下划线:当导入一个包时，该包下的文件里所有init函数都会被执行
-	_ "github.com/go-sql-driver/mysql"
-	"github.com/go-xorm/xorm"
 	"html/template"
 	"io"
 	"log"
@@ -44,28 +40,6 @@ func userLogin(writer http.ResponseWriter, request *http.Request) {
 
 	//如何返回json
 	_, _ = io.WriteString(writer, "hello,world！")
-}
-
-//数据库操作
-//安装工具：go get github.com/go-xorm/xorm
-//安装驱动：go get github.com/go-sql-driver/mysql
-var DbEngin *xorm.Engine
-
-func init() {
-	drivename := "mysql"
-	DsName := "root:root@(127.0.0.1:3306)/chat?charset=utf8"
-	DbEngin, err := xorm.NewEngine(drivename, DsName)
-	if nil != err {
-		log.Fatal(err.Error())
-	}
-	//是否显示sql语句
-	DbEngin.ShowSQL(true)
-	//数据库最大打开的连接数
-	DbEngin.SetMaxOpenConns(2)
-
-	//自动User创建
-	//DbEngin.Sync2(new(User))
-	fmt.Println("init data base ok")
 }
 
 //逻辑处理
