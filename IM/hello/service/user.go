@@ -10,8 +10,12 @@
 package service
 
 import (
-	"Gostudy/GO_IM/IM/hello/model"
+	"Gostudy/IM/hello/model"
+	"Gostudy/IM/hello/util"
 	"errors"
+	"fmt"
+	"math/rand"
+	"time"
 )
 
 type UserService struct {
@@ -29,15 +33,30 @@ func (s *UserService) Register(
 	if err != nil {
 		return tmp, err
 	}
+
 	//如果存在则返回提示已注册
 	if tmp.Id > 0 {
 		return tmp, errors.New("该手机号已经注册！")
 	}
+
 	//否则拼接插入数据
+	tmp.Mobile = mobile
+	tmp.Avatar = avatar
+	tmp.Nickname = nickname
+	tmp.Sex = sex
+
+	//获取随机数，进行md5加密
+	tmp.Salt = fmt.Sprintf("%06d", rand.Int31n(10000))
+	tmp.Passwd = util.MakePasswd(plainpsd, tmp.Salt)
+	tmp.Createat = time.Now() //统计用户总数
 
 	//返回新用户信息
 
-	return user, nil
+	//插入InsertOne
+	_, err = DbEngin.InsertOne(&tmp)
+	//前端恶意插入特殊字符
+	//数据库连接操作失败
+	return tmp, nil
 }
 
 //登录函数

@@ -10,10 +10,14 @@
 package main
 
 import (
+	"Gostudy/IM/hello/model"
+	"Gostudy/IM/hello/service"
 	"encoding/json"
+	"fmt"
 	"html/template"
 	"io"
 	"log"
+	"math/rand"
 	"net/http"
 )
 
@@ -39,7 +43,31 @@ func userLogin(writer http.ResponseWriter, request *http.Request) {
 	}
 
 	//如何返回json
-	_, _ = io.WriteString(writer, "hello,world！")
+	_, _ = io.WriteString(writer, "hello,world!")
+}
+
+var userService service.UserService
+
+func userRegister(writer http.ResponseWriter, request *http.Request) {
+
+	//mobile,passwd
+	_ = request.ParseForm()
+
+	mobile := request.PostForm.Get("mobile")
+	plainpwd := request.PostForm.Get("passwd")
+	nickname := fmt.Sprintf("user%06d", rand.Int31())
+	avatar := ""
+	sex := model.SEX_UNKNOW
+
+	user, err := userService.Register(mobile, plainpwd, nickname, avatar, sex)
+	if err != nil {
+		Resp(writer, -1, nil, err.Error())
+	} else {
+		Resp(writer, 0, user, "Success!")
+	}
+
+	//如何返回json
+	_, _ = io.WriteString(writer, "hello,world!")
 }
 
 //逻辑处理
@@ -77,7 +105,7 @@ func Resp(w http.ResponseWriter, code int, data interface{}, msg string) {
 //如何获得参数
 func RegisterView() {
 	//解析
-	tpl, err := template.ParseGlob("D:/Gostudy/GO_IM/IM/hello/view/**/*")
+	tpl, err := template.ParseGlob("D:/Gostudy/IM/hello/view/**/*")
 	//如果报错就不要继续了
 	if nil != err {
 		//打印并直接退出
@@ -95,12 +123,13 @@ func RegisterView() {
 func main() {
 	//绑定请求和处理函数
 	http.HandleFunc("/user/login", userLogin)
+	http.HandleFunc("/user/register", userRegister)
 
 	//1、提供静态资源目录支持
 	//http.Handle("/",http.FileServer(http.Dir("D:/Gostudy/GO_IM/IM/hello/")))
 	//2、提供指定目录的静态文件支持
 	//fmt.Println(http.Dir("D:/Gostudy/GO_IM/IM/hello/"))
-	http.Handle("/asset/", http.FileServer(http.Dir("D:/Gostudy/GO_IM/IM/hello/")))
+	http.Handle("/asset/", http.FileServer(http.Dir("D:/Gostudy/IM/hello/")))
 
 	//user/login.shtml
 	//http.HandleFunc("/user/login.shtml", func(w http.ResponseWriter, r *http.Request) {

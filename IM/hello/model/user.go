@@ -21,7 +21,7 @@ type User struct {
 	Id       int64     `xorm:"pk autoincr bigint(64)" form:"id" json:"id"`  //用户ID
 	Mobile   string    `xorm:"varchar(20)" form:"mobile" json:"mobile"`     //手机号码
 	Passwd   string    `xorm:"varchar(40)" form:"passwd" json:"-"`          // 用户密码=f(plainpwd+salt),MD5
-	Avatar   string    `xorm:"varchar(150)" form:"avatar" json:"avatar"`    //
+	Avatar   string    `xorm:"varchar(150)" form:"avatar" json:"avatar"`    //头像
 	Sex      string    `xorm:"varchar(2)" form:"sex" json:"sex"`            // 性别
 	Nickname string    `xorm:"varchar(20)" form:"nickname" json:"nickname"` // 昵称
 	Salt     string    `xorm:"varchar(10)" form:"salt" json:"-"`            // 随机数
