@@ -49,6 +49,8 @@ func (s *UserService) Register(
 	tmp.Salt = fmt.Sprintf("%06d", rand.Int31n(10000))
 	tmp.Passwd = util.MakePasswd(plainpsd, tmp.Salt)
 	tmp.Createat = time.Now() //统计用户总数
+	//token 可以是一个随机数
+	tmp.Token = fmt.Sprintf("%08d", rand.Int31())
 
 	//返回新用户信息
 

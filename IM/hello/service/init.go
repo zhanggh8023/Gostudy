@@ -25,7 +25,8 @@ var DbEngin *xorm.Engine
 
 func init() {
 	drivename := "mysql"
-	DsName := "root:root@(127.0.0.1:3306)/chat?charset=utf8"
+	//DsName := "root:****@(47.110.127.36:3306)/chat?charset=utf8"
+	DsName := "root:123456@(172.16.20.130:3306)/chat?charset=utf8"
 
 	err := errors.New("")
 	DbEngin, err = xorm.NewEngine(drivename, DsName)
@@ -39,7 +40,7 @@ func init() {
 	//数据库最大打开的连接数
 	DbEngin.SetMaxOpenConns(2)
 
-	//自动User
+	//自动创建表结构User
 	_ = DbEngin.Sync2(new(model.User))
 	//DbEngin := dbengin
 	fmt.Println("init data base ok!")

@@ -10,96 +10,11 @@
 package main
 
 import (
-	"Gostudy/IM/hello/model"
-	"Gostudy/IM/hello/service"
-	"encoding/json"
-	"fmt"
+	"Gostudy/IM/hello/ctrl"
 	"html/template"
-	"io"
 	"log"
-	"math/rand"
 	"net/http"
 )
-
-func userLogin(writer http.ResponseWriter, request *http.Request) {
-
-	//mobile,passwd
-	_ = request.ParseForm()
-	mobile := request.PostForm.Get("mobile")
-	passwd := request.PostForm.Get("passwd")
-
-	loginok := false
-	if mobile == "18600000000" && passwd == "123456" {
-		loginok = true
-	}
-	if loginok {
-		//｛"id":1,"token":"xx"｝
-		data := make(map[string]interface{})
-		data["id"] = 1
-		data["token"] = "test"
-		Resp(writer, 0, data, "Success!")
-	} else {
-		Resp(writer, -1, nil, "密码不正确!")
-	}
-
-	//如何返回json
-	_, _ = io.WriteString(writer, "hello,world!")
-}
-
-var userService service.UserService
-
-func userRegister(writer http.ResponseWriter, request *http.Request) {
-
-	//mobile,passwd
-	_ = request.ParseForm()
-
-	mobile := request.PostForm.Get("mobile")
-	plainpwd := request.PostForm.Get("passwd")
-	nickname := fmt.Sprintf("user%06d", rand.Int31())
-	avatar := ""
-	sex := model.SEX_UNKNOW
-
-	user, err := userService.Register(mobile, plainpwd, nickname, avatar, sex)
-	if err != nil {
-		Resp(writer, -1, nil, err.Error())
-	} else {
-		Resp(writer, 0, user, "Success!")
-	}
-
-	//如何返回json
-	_, _ = io.WriteString(writer, "hello,world!")
-}
-
-//逻辑处理
-type H struct {
-	Code int         `json:"code"` //当返回json首字母大写，可转为小写
-	Msg  string      `json:"msg"`
-	Data interface{} `json:"data,omitempty"` //*omitempty data为空时不显示
-}
-
-//restapi json/ xml返回
-//1、获取前端传递的参数
-func Resp(w http.ResponseWriter, code int, data interface{}, msg string) {
-	//设置header 为json  默认的text/html，所以特别指出返回为application/json
-	w.Header().Set("Content-Type", "application/json")
-	//设置状态200
-	w.WriteHeader(http.StatusOK)
-	//输出
-	//定义一个结构体
-	h := H{
-		Code: code,
-		Msg:  msg,
-		Data: data,
-	}
-	//将结构体转化成json字符串
-	ret, err := json.Marshal(h)
-	if err != nil {
-		log.Println(err.Error())
-	}
-	//输出
-	_, _ = w.Write(ret)
-	//返回json ok
-}
 
 //解析参数
 //如何获得参数
@@ -122,8 +37,8 @@ func RegisterView() {
 
 func main() {
 	//绑定请求和处理函数
-	http.HandleFunc("/user/login", userLogin)
-	http.HandleFunc("/user/register", userRegister)
+	http.HandleFunc("/user/login", ctrl.UserLogin)
+	http.HandleFunc("/user/register", ctrl.UserRegister)
 
 	//1、提供静态资源目录支持
 	//http.Handle("/",http.FileServer(http.Dir("D:/Gostudy/GO_IM/IM/hello/")))
