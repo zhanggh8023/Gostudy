@@ -65,5 +65,23 @@ func (s *UserService) Register(
 func (s *UserService) Login(
 	mobile, //手机
 	plainpsd string) (user model.User, err error) {
-	return user, nil
+
+	//首先通过手机号查询用户
+	tmp := model.User{}
+	_, _ = DbEngin.Where("mobile=?", mobile).Get(&tmp)
+	//如果没有找到
+	if tmp.Id == 0 {
+		return tmp, errors.New("该用户不存在！")
+	}
+	//查询到了对比密码
+	if !util.ValidatePasswd(plainpsd, tmp.Salt, tmp.Passwd) {
+		return tmp, errors.New("密码不正确！")
+	}
+	//刷新token，安全
+	str := fmt.Sprintf("%d", time.Now().Unix())
+	token := util.Md5Encode(str)
+	tmp.Token = token
+	//返回数据
+	_, _ = DbEngin.ID(tmp.Id).Cols("token").Update(&tmp)
+	return tmp, nil
 }

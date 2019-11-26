@@ -25,22 +25,32 @@ func UserLogin(writer http.ResponseWriter, request *http.Request) {
 	mobile := request.PostForm.Get("mobile")
 	passwd := request.PostForm.Get("passwd")
 
-	loginok := false
-	if mobile == "18600000000" && passwd == "123456" {
-		loginok = true
-	}
-	if loginok {
-		//｛"id":1,"token":"xx"｝
-		data := make(map[string]interface{})
-		data["id"] = 1
-		data["token"] = "test"
-		util.RespOk(writer, data, "Success!")
+	//loginok := true
+
+	//模拟
+	user, err := userService.Login(mobile, passwd)
+
+	if err != nil {
+		util.RespFail(writer, err.Error())
 	} else {
-		util.RespFail(writer, "密码不正确!")
+		util.RespOk(writer, user, "登录成功！")
 	}
 
+	//if mobile == "18600000000" && passwd == "123456" {
+	//	loginok = true
+	//}
+	//if loginok {
+	//	//｛"id":1,"token":"xx"｝
+	//	data := make(map[string]interface{})
+	//	data["id"] = 1
+	//	data["token"] = "test"
+	//	util.RespOk(writer, data, "Success!")
+	//} else {
+	//	util.RespFail(writer, "密码不正确!")
+	//}
+
 	//如何返回json
-	_, _ = io.WriteString(writer, "hello,world!")
+	//_, _ = io.WriteString(writer, "hello,world!")
 }
 
 var userService service.UserService
