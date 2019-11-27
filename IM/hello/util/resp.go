@@ -17,24 +17,28 @@ import (
 
 //逻辑处理
 type H struct {
-	Code int         `json:"code"` //当返回json首字母大写，可转为小写
-	Msg  string      `json:"msg"`
-	Data interface{} `json:"data,omitempty"` //*omitempty data为空时不显示
+	Code  int         `json:"code"`
+	Msg   string      `json:"msg"`
+	Data  interface{} `json:"data,omitempty"`
+	Rows  interface{} `json:"rows,omitempty"`
+	Total interface{} `json:"total,omitempty"`
 }
 
+//
 func RespFail(w http.ResponseWriter, msg string) {
 	Resp(w, -1, nil, msg)
 }
 func RespOk(w http.ResponseWriter, data interface{}, msg string) {
 	Resp(w, 0, data, msg)
 }
-
-//restapi json/ xml返回
-//1、获取前端传递的参数
+func RespOkList(w http.ResponseWriter, lists interface{}, total interface{}) {
+	//分页数目,
+	RespList(w, 0, lists, total)
+}
 func Resp(w http.ResponseWriter, code int, data interface{}, msg string) {
-	//设置header 为json  默认的text/html，所以特别指出返回为application/json
+
 	w.Header().Set("Content-Type", "application/json")
-	//设置状态200
+	//设置200状态
 	w.WriteHeader(http.StatusOK)
 	//输出
 	//定义一个结构体
@@ -43,12 +47,34 @@ func Resp(w http.ResponseWriter, code int, data interface{}, msg string) {
 		Msg:  msg,
 		Data: data,
 	}
-	//将结构体转化成json字符串
+	//将结构体转化成JSOn字符串
 	ret, err := json.Marshal(h)
 	if err != nil {
 		log.Println(err.Error())
 	}
 	//输出
 	_, _ = w.Write(ret)
-	//返回json ok
+}
+func RespList(w http.ResponseWriter, code int, data interface{}, total interface{}) {
+
+	w.Header().Set("Content-Type", "application/json")
+	//设置200状态
+	w.WriteHeader(http.StatusOK)
+	//输出
+	//定义一个结构体
+	//满足某一条件的全部记录数目
+	//测试 100
+	//20
+	h := H{
+		Code:  code,
+		Rows:  data,
+		Total: total,
+	}
+	//将结构体转化成JSOn字符串
+	ret, err := json.Marshal(h)
+	if err != nil {
+		log.Println(err.Error())
+	}
+	//输出
+	_, _ = w.Write(ret)
 }

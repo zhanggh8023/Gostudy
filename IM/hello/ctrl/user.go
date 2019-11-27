@@ -14,7 +14,6 @@ import (
 	"Gostudy/IM/hello/service"
 	"Gostudy/IM/hello/util"
 	"fmt"
-	"io"
 	"math/rand"
 	"net/http"
 )
@@ -33,7 +32,7 @@ func UserLogin(writer http.ResponseWriter, request *http.Request) {
 	if err != nil {
 		util.RespFail(writer, err.Error())
 	} else {
-		util.RespOk(writer, user, "登录成功！")
+		util.RespOk(writer, user, "Success！")
 	}
 
 	//if mobile == "18600000000" && passwd == "123456" {
@@ -55,11 +54,13 @@ func UserLogin(writer http.ResponseWriter, request *http.Request) {
 
 var userService service.UserService
 
-func UserRegister(writer http.ResponseWriter, request *http.Request) {
-	//mobile,passwd
-	_ = request.ParseForm()
+func UserRegister(writer http.ResponseWriter,
+	request *http.Request) {
 
+	_ = request.ParseForm()
+	//
 	mobile := request.PostForm.Get("mobile")
+	//
 	plainpwd := request.PostForm.Get("passwd")
 	nickname := fmt.Sprintf("user%06d", rand.Int31())
 	avatar := ""
@@ -69,13 +70,9 @@ func UserRegister(writer http.ResponseWriter, request *http.Request) {
 	if err != nil {
 		util.RespFail(writer, err.Error())
 	} else {
-		util.RespOk(writer, user, "Success!")
+		util.RespOk(writer, user, "")
+
 	}
-
 	//如何返回json
-	_, _ = io.WriteString(writer, "hello,world!")
-}
-
-func Resp(writer http.ResponseWriter, i int, nil2 interface{}, s string) {
-
+	//_, _ = io.WriteString(writer, "hello,world!")
 }

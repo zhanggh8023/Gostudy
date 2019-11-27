@@ -39,6 +39,11 @@ func main() {
 	//绑定请求和处理函数
 	http.HandleFunc("/user/login", ctrl.UserLogin)
 	http.HandleFunc("/user/register", ctrl.UserRegister)
+	http.HandleFunc("/contact/loadcommunity", ctrl.LoadCommunity)
+	http.HandleFunc("/contact/loadfriend", ctrl.LoadFriend)
+	http.HandleFunc("/contact/joincommunity", ctrl.JoinCommunity)
+	http.HandleFunc("/contact/addfriend", ctrl.Addfriend)
+	http.HandleFunc("/chat", ctrl.Chat)
 
 	//1、提供静态资源目录支持
 	//http.Handle("/",http.FileServer(http.Dir("D:/Gostudy/GO_IM/IM/hello/")))
