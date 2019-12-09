@@ -31,6 +31,15 @@ import (
 
 // main函数。
 func main() {
+	var a int =10
+	var p *int =&a
+
+	a=100
+	fmt.Println("a=",a)
+
+	*p=250
+	fmt.Println("a=",a)
+	fmt.Println("*p=",*p)
 
 	// 打印函数调用语句。用于打印输出信息。
 	fmt.Println("Go语言编程实战")
