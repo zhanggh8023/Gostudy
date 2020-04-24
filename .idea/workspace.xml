@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25b438e9-c841-420c-8ca9-1fe1639b8c98" name="Default Changelist" comment="》完成显示好友列表和群&#10;》接入websockt并实现基础文字通讯">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一课go语言特点/02.go" beforeDir="false" afterPath="$PROJECT_DIR$/第一课go语言特点/02.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一课go语言特点/03.go" beforeDir="false" afterPath="$PROJECT_DIR$/第一课go语言特点/03.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一课go语言特点/04.go" beforeDir="false" afterPath="$PROJECT_DIR$/第一课go语言特点/04.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一课go语言特点/05.go" beforeDir="false" afterPath="$PROJECT_DIR$/第一课go语言特点/05.go" afterDir="false" />
+    <list default="true" id="25b438e9-c841-420c-8ca9-1fe1639b8c98" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,10 +30,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/第一课go语言特点/02.go">
+        <entry file="file://$PROJECT_DIR$/第一课go语言特点/03.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            <state relative-caret-position="-25">
+              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <folding>
+                <element signature="e#165#182#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,7 +86,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="934" />
     <option name="width" value="993" />
     <option name="height" value="1047" />
@@ -240,6 +237,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="934" y="0" width="993" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918434" visible="true" weight="0.20900321" />
       <window_info id="Structure" order="1" sideWeight="0.5008157" side_tool="true" weight="0.27257383" />
@@ -318,7 +316,8 @@
     <MESSAGE value="first_class" />
     <MESSAGE value="Default Changelist" />
     <MESSAGE value="》完成IM登录成功失败返回" />
-    <option name="LAST_COMMIT_MESSAGE" value="》完成IM登录成功失败返回" />
+    <MESSAGE value="》学习空指针、野指针&#10;》学习heap(堆）、左值右值体现" />
+    <option name="LAST_COMMIT_MESSAGE" value="》学习空指针、野指针&#10;》学习heap(堆）、左值右值体现" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -366,9 +365,6 @@
     <entry file="file://$PROJECT_DIR$/GO_IM/chat/hello6.1/ctrl/chat.go" />
     <entry file="file://$PROJECT_DIR$/GO_IM/chat/hello6.1/ctrl/attach.go" />
     <entry file="file://$PROJECT_DIR$/GO_IM/IM/hello/asset/js/util.js" />
-    <entry file="file://$PROJECT_DIR$/go.sum">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/GO_IM/5Golang_web项目实操" />
     <entry file="file://$PROJECT_DIR$/../Go/src/net/http/fs.go">
       <provider selected="true" editor-type-id="text-editor">
@@ -481,13 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第一课go语言特点/03.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第一课go语言特点/04.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6">
@@ -505,10 +494,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/go.sum">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/第一课go语言特点/02.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        <state relative-caret-position="350">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第一课go语言特点/03.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="e#165#182#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
