@@ -28,14 +28,12 @@ func main() {
 	m4[400]="red"
 	fmt.Println("m4=",m4)*/
 
-
 	//初始化map
 	/*var m5 map [int]string = map[int]string{1:"Luffy",2:"Sanli",3:"Xinhua"}
 	m6 := map[int]string{1:"Luffy",2:"Sanli",3:"Xinhua"}
 	fmt.Println(m5,m6)*/
 
-
-	m7 := make(map[int]string,10)
+	/*m7 := make(map[int]string,10)
 
 	m7[100] = "Nami"
 	m7[20] = "Hello"
@@ -45,9 +43,32 @@ func main() {
 
 	m7[3] = "yellow"  //成功！ 将原有map中，key值为3的map元素，替换
 
-	fmt.Println("m7=",m7)
+	fmt.Println("m7=",m7)*/
+
+	// 遍历map
+	/*var m8 map[int]string = map[int]string{1:"luffy",130:"sanji",1312:"zoro"}
+	for k,v := range m8{
+		fmt.Printf("key:%d__value:%q\n",k,v)
+	}
+
+	// range返回的key、value。省缺value
+	for _, K := range m8 {
+		fmt.Printf("key:%s\n",K)
+	}*/
+
+	//判断马匹中的key 是否存在
+	/*var m9 map[int]string = map[int]string{1:"luffy",130:"sanji",1312:"zoro"}
+
+	if v, has := m9[1]; !has {
+		fmt.Println("value=",v,"has=",has)
+	}else {
+		fmt.Println("value=",v,"has=",has)
+	}*/
+
+	var m10 map[int]string = map[int]string{1: "luffy", 130: "sanji", 1312: "zoro"}
+
+	delete(m10, 1)
+
+	fmt.Println("m10", m10)
 
 }
-
-
-
