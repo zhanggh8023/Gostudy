@@ -19,17 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25b438e9-c841-420c-8ca9-1fe1639b8c98" name="Default Changelist" comment="同步学习内容">
-      <change afterPath="$PROJECT_DIR$/第一课go语言特点/05切片的使用.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第一课go语言特点/06Copy函数.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第一课go语言特点/07map使用.go" afterDir="false" />
+    <list default="true" id="25b438e9-c841-420c-8ca9-1fe1639b8c98" name="Default Changelist" comment="完成学习map的使用">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/初学/HelloWorld.exe" beforeDir="false" afterPath="$PROJECT_DIR$/初学/HelloWorld.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一课go语言特点/03.go" beforeDir="false" afterPath="$PROJECT_DIR$/第一课go语言特点/03.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一课go语言特点/04.go" beforeDir="false" afterPath="$PROJECT_DIR$/第一课go语言特点/04指针.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一课go语言特点/05.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/07map使用.go" beforeDir="false" afterPath="$PROJECT_DIR$/第一课go语言特点/07map使用.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +211,8 @@
     <MESSAGE value="》完成IM登录成功失败返回" />
     <MESSAGE value="》学习空指针、野指针&#10;》学习heap(堆）、左值右值体现" />
     <MESSAGE value="同步学习内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="同步学习内容" />
+    <MESSAGE value="完成学习map的使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成学习map的使用" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -251,30 +244,34 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1180" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594014283096" />
-    <state width="1340" height="208" key="GridCell.Tab.0.bottom" timestamp="1594023322030">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="578" height="196" key="GridCell.Tab.0.bottom" timestamp="1594707725340">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594023322030" />
-    <state width="1340" height="208" key="GridCell.Tab.0.center" timestamp="1594023322030">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1340" height="196" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594114004988" />
+    <state width="578" height="196" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1594707725340" />
+    <state width="578" height="196" key="GridCell.Tab.0.center" timestamp="1594707725339">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="208" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594023322030" />
-    <state width="1340" height="208" key="GridCell.Tab.0.left" timestamp="1594023322030">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1340" height="196" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594114004988" />
+    <state width="578" height="196" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1594707725339" />
+    <state width="578" height="196" key="GridCell.Tab.0.left" timestamp="1594707725339">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="208" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594023322030" />
-    <state width="1340" height="208" key="GridCell.Tab.0.right" timestamp="1594023322030">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1340" height="196" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594114004988" />
+    <state width="578" height="196" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1594707725339" />
+    <state width="578" height="196" key="GridCell.Tab.0.right" timestamp="1594707725339">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="208" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594023322030" />
+    <state width="1340" height="196" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594114004988" />
+    <state width="578" height="196" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1594707725339" />
     <state x="-1808" y="161" key="SettingsEditor" timestamp="1594016359039">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1808" y="161" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594016359039" />
-    <state x="-1368" y="252" key="Vcs.Push.Dialog.v2" timestamp="1591688900497">
+    <state x="-1368" y="252" key="Vcs.Push.Dialog.v2" timestamp="1594114154749">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591688900497" />
+    <state x="-1368" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594114154749" />
   </component>
   <component name="masterDetails">
     <states>

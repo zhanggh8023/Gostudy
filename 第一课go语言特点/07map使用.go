@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main1() {
 	/*var m1 map[int]string
 	//m1[100] = "Green"
 	if m1 == nil {
@@ -71,4 +71,20 @@ func main() {
 
 	fmt.Println("m10", m10)
 
+
 }
+
+func mapDelete(m map[int]string,key int)  {
+	delete(m,key)
+}
+
+func main(){
+	m := map[int]string{1: "luffy", 130: "sanji", 1312: "zoro"}
+
+	fmt.Println("delete m:",m)
+
+	mapDelete(m,130)
+
+	fmt.Println("delete m :",m)
+}
+
