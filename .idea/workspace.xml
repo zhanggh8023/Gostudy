@@ -20,8 +20,795 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25b438e9-c841-420c-8ca9-1fe1639b8c98" name="Default Changelist" comment="完成学习map的使用">
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/cloud.google.com/go/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/cloud.google.com/go/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/cloud.google.com/go/@v/v0.26.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/cloud.google.com/go/@v/v0.26.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/cloud.google.com/go/@v/v0.34.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/cloud.google.com/go/@v/v0.34.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/cloud.google.com/go/@v/v0.37.4.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/cloud.google.com/go/@v/v0.37.4.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/!burnt!sushi/toml/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/!burnt!sushi/toml/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/!burnt!sushi/toml/@v/v0.3.1.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/!burnt!sushi/toml/@v/v0.3.1.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/!shopify/sarama/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/!shopify/sarama/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/!shopify/sarama/@v/v1.19.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/!shopify/sarama/@v/v1.19.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/!shopify/toxiproxy/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/!shopify/toxiproxy/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/!shopify/toxiproxy/@v/v2.1.4+incompatible.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/!shopify/toxiproxy/@v/v2.1.4+incompatible.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/alecthomas/template/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/alecthomas/template/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/alecthomas/template/@v/v0.0.0-20160405071501-a0175ee3bccc.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/alecthomas/template/@v/v0.0.0-20160405071501-a0175ee3bccc.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/alecthomas/units/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/alecthomas/units/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/alecthomas/units/@v/v0.0.0-20151022065526-2efee857e7cf.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/alecthomas/units/@v/v0.0.0-20151022065526-2efee857e7cf.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/apache/thrift/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/apache/thrift/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/apache/thrift/@v/v0.12.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/apache/thrift/@v/v0.12.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/beorn7/perks/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/beorn7/perks/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/beorn7/perks/@v/v0.0.0-20180321164747-3a771d992973.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/beorn7/perks/@v/v0.0.0-20180321164747-3a771d992973.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/client9/misspell/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/client9/misspell/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/client9/misspell/@v/v0.3.4.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/client9/misspell/@v/v0.3.4.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/cockroachdb/apd/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/cockroachdb/apd/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/cockroachdb/apd/@v/v1.1.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/cockroachdb/apd/@v/v1.1.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/davecgh/go-spew/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/davecgh/go-spew/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/davecgh/go-spew/@v/v1.1.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/davecgh/go-spew/@v/v1.1.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/davecgh/go-spew/@v/v1.1.1.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/davecgh/go-spew/@v/v1.1.1.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/denisenkom/go-mssqldb/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/denisenkom/go-mssqldb/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/denisenkom/go-mssqldb/@v/v0.0.0-20190707035753-2be1aa521ff4.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/denisenkom/go-mssqldb/@v/v0.0.0-20190707035753-2be1aa521ff4.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/eapache/go-resiliency/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/eapache/go-resiliency/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/eapache/go-resiliency/@v/v1.1.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/eapache/go-resiliency/@v/v1.1.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/eapache/go-xerial-snappy/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/eapache/go-xerial-snappy/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/eapache/go-xerial-snappy/@v/v0.0.0-20180814174437-776d5712da21.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/eapache/go-xerial-snappy/@v/v0.0.0-20180814174437-776d5712da21.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/eapache/queue/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/eapache/queue/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/eapache/queue/@v/v1.1.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/eapache/queue/@v/v1.1.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/fsnotify/fsnotify/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/fsnotify/fsnotify/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/fsnotify/fsnotify/@v/v1.4.7.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/fsnotify/fsnotify/@v/v1.4.7.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/go-kit/kit/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/go-kit/kit/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/go-kit/kit/@v/v0.8.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/go-kit/kit/@v/v0.8.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/go-logfmt/logfmt/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/go-logfmt/logfmt/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/go-logfmt/logfmt/@v/v0.3.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/go-logfmt/logfmt/@v/v0.3.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/go-sql-driver/mysql/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/go-sql-driver/mysql/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/go-sql-driver/mysql/@v/v1.4.1.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/go-sql-driver/mysql/@v/v1.4.1.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/go-sql-driver/mysql/@v/v1.4.1.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/go-sql-driver/mysql/@v/v1.4.1.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/go-sql-driver/mysql/@v/v1.4.1.ziphash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/go-stack/stack/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/go-stack/stack/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/go-stack/stack/@v/v1.8.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/go-stack/stack/@v/v1.8.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/go-xorm/sqlfiddle/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/go-xorm/sqlfiddle/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/go-xorm/sqlfiddle/@v/v0.0.0-20180821085327-62ce714f951a.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/go-xorm/sqlfiddle/@v/v0.0.0-20180821085327-62ce714f951a.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/go-xorm/xorm/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/go-xorm/xorm/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/go-xorm/xorm/@v/v0.7.9.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/go-xorm/xorm/@v/v0.7.9.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/go-xorm/xorm/@v/v0.7.9.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/go-xorm/xorm/@v/v0.7.9.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/go-xorm/xorm/@v/v0.7.9.ziphash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/gofrs/uuid/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/gofrs/uuid/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/gofrs/uuid/@v/v3.2.0+incompatible.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/gofrs/uuid/@v/v3.2.0+incompatible.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/gogo/protobuf/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/gogo/protobuf/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/gogo/protobuf/@v/v1.1.1.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/gogo/protobuf/@v/v1.1.1.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/gogo/protobuf/@v/v1.2.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/gogo/protobuf/@v/v1.2.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/golang/glog/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/golang/glog/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/golang/glog/@v/v0.0.0-20160126235308-23def4e6c14b.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/golang/glog/@v/v0.0.0-20160126235308-23def4e6c14b.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/golang/mock/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/golang/mock/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/golang/mock/@v/v1.1.1.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/golang/mock/@v/v1.1.1.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/golang/mock/@v/v1.2.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/golang/mock/@v/v1.2.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/golang/protobuf/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/golang/protobuf/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/golang/protobuf/@v/v1.2.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/golang/protobuf/@v/v1.2.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/golang/snappy/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/golang/snappy/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/golang/snappy/@v/v0.0.0-20180518054509-2e65f85255db.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/golang/snappy/@v/v0.0.0-20180518054509-2e65f85255db.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/google/btree/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/google/btree/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/google/btree/@v/v0.0.0-20180813153112-4030bb1f1f0c.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/google/btree/@v/v0.0.0-20180813153112-4030bb1f1f0c.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/google/go-cmp/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/google/go-cmp/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/google/go-cmp/@v/v0.2.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/google/go-cmp/@v/v0.2.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/google/martian/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/google/martian/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/google/martian/@v/v2.1.0+incompatible.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/google/martian/@v/v2.1.0+incompatible.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/google/pprof/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/google/pprof/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/google/pprof/@v/v0.0.0-20181206194817-3ea8567a2e57.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/google/pprof/@v/v0.0.0-20181206194817-3ea8567a2e57.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/googleapis/gax-go/v2/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/googleapis/gax-go/v2/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/googleapis/gax-go/v2/@v/v2.0.4.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/googleapis/gax-go/v2/@v/v2.0.4.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/gorilla/context/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/gorilla/context/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/gorilla/context/@v/v1.1.1.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/gorilla/context/@v/v1.1.1.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/gorilla/mux/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/gorilla/mux/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/gorilla/mux/@v/v1.6.2.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/gorilla/mux/@v/v1.6.2.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/gorilla/websocket/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/gorilla/websocket/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/gorilla/websocket/@v/v1.4.1.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/gorilla/websocket/@v/v1.4.1.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/gorilla/websocket/@v/v1.4.1.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/gorilla/websocket/@v/v1.4.1.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/gorilla/websocket/@v/v1.4.1.ziphash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/hashicorp/golang-lru/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/hashicorp/golang-lru/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/hashicorp/golang-lru/@v/v0.5.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/hashicorp/golang-lru/@v/v0.5.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/hpcloud/tail/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/hpcloud/tail/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/hpcloud/tail/@v/v1.0.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/hpcloud/tail/@v/v1.0.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/jackc/fake/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/jackc/fake/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/jackc/fake/@v/v0.0.0-20150926172116-812a484cc733.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/jackc/fake/@v/v0.0.0-20150926172116-812a484cc733.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/jackc/pgx/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/jackc/pgx/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/jackc/pgx/@v/v3.6.0+incompatible.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/jackc/pgx/@v/v3.6.0+incompatible.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/jstemmer/go-junit-report/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/jstemmer/go-junit-report/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/jstemmer/go-junit-report/@v/v0.0.0-20190106144839-af01ea7f8024.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/jstemmer/go-junit-report/@v/v0.0.0-20190106144839-af01ea7f8024.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/julienschmidt/httprouter/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/julienschmidt/httprouter/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/julienschmidt/httprouter/@v/v1.2.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/julienschmidt/httprouter/@v/v1.2.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/kisielk/gotool/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/kisielk/gotool/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/kisielk/gotool/@v/v1.0.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/kisielk/gotool/@v/v1.0.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/konsorten/go-windows-terminal-sequences/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/konsorten/go-windows-terminal-sequences/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/konsorten/go-windows-terminal-sequences/@v/v1.0.1.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/konsorten/go-windows-terminal-sequences/@v/v1.0.1.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/kr/logfmt/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/kr/logfmt/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/kr/logfmt/@v/v0.0.0-20140226030751-b84e30acd515.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/kr/logfmt/@v/v0.0.0-20140226030751-b84e30acd515.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/lib/pq/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/lib/pq/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/lib/pq/@v/v1.0.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/lib/pq/@v/v1.0.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/mattn/go-sqlite3/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/mattn/go-sqlite3/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/mattn/go-sqlite3/@v/v1.10.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/mattn/go-sqlite3/@v/v1.10.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/matttproud/golang_protobuf_extensions/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/matttproud/golang_protobuf_extensions/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/matttproud/golang_protobuf_extensions/@v/v1.0.1.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/matttproud/golang_protobuf_extensions/@v/v1.0.1.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/mwitkow/go-conntrack/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/mwitkow/go-conntrack/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/mwitkow/go-conntrack/@v/v0.0.0-20161129095857-cc309e4a2223.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/mwitkow/go-conntrack/@v/v0.0.0-20161129095857-cc309e4a2223.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/onsi/ginkgo/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/onsi/ginkgo/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/onsi/ginkgo/@v/v1.6.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/onsi/ginkgo/@v/v1.6.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/onsi/ginkgo/@v/v1.7.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/onsi/ginkgo/@v/v1.7.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/onsi/gomega/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/onsi/gomega/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/onsi/gomega/@v/v1.4.3.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/onsi/gomega/@v/v1.4.3.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/openzipkin/zipkin-go/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/openzipkin/zipkin-go/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/openzipkin/zipkin-go/@v/v0.1.6.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/openzipkin/zipkin-go/@v/v0.1.6.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/pierrec/lz4/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/pierrec/lz4/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/pierrec/lz4/@v/v2.0.5+incompatible.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/pierrec/lz4/@v/v2.0.5+incompatible.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/pkg/errors/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/pkg/errors/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/pkg/errors/@v/v0.8.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/pkg/errors/@v/v0.8.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/pkg/errors/@v/v0.8.1.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/pkg/errors/@v/v0.8.1.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/pmezard/go-difflib/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/pmezard/go-difflib/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/pmezard/go-difflib/@v/v1.0.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/pmezard/go-difflib/@v/v1.0.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/prometheus/client_golang/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/prometheus/client_golang/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/prometheus/client_golang/@v/v0.9.1.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/prometheus/client_golang/@v/v0.9.1.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/prometheus/client_golang/@v/v0.9.3-0.20190127221311-3c4408c8b829.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/prometheus/client_golang/@v/v0.9.3-0.20190127221311-3c4408c8b829.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/prometheus/client_model/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/prometheus/client_model/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/prometheus/client_model/@v/v0.0.0-20180712105110-5c3871d89910.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/prometheus/client_model/@v/v0.0.0-20180712105110-5c3871d89910.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/prometheus/client_model/@v/v0.0.0-20190115171406-56726106282f.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/prometheus/client_model/@v/v0.0.0-20190115171406-56726106282f.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/prometheus/common/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/prometheus/common/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/prometheus/common/@v/v0.2.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/prometheus/common/@v/v0.2.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/prometheus/procfs/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/prometheus/procfs/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/prometheus/procfs/@v/v0.0.0-20181005140218-185b4288413d.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/prometheus/procfs/@v/v0.0.0-20181005140218-185b4288413d.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/prometheus/procfs/@v/v0.0.0-20190117184657-bf6a532e95b1.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/prometheus/procfs/@v/v0.0.0-20190117184657-bf6a532e95b1.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/rcrowley/go-metrics/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/rcrowley/go-metrics/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/rcrowley/go-metrics/@v/v0.0.0-20181016184325-3113b8401b8a.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/rcrowley/go-metrics/@v/v0.0.0-20181016184325-3113b8401b8a.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/shopspring/decimal/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/shopspring/decimal/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/shopspring/decimal/@v/v0.0.0-20180709203117-cd690d0c9e24.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/shopspring/decimal/@v/v0.0.0-20180709203117-cd690d0c9e24.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/sirupsen/logrus/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/sirupsen/logrus/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/sirupsen/logrus/@v/v1.2.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/sirupsen/logrus/@v/v1.2.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/stretchr/objx/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/stretchr/objx/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/stretchr/objx/@v/v0.1.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/stretchr/objx/@v/v0.1.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/stretchr/objx/@v/v0.1.1.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/stretchr/objx/@v/v0.1.1.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/stretchr/testify/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/stretchr/testify/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/stretchr/testify/@v/v1.2.2.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/stretchr/testify/@v/v1.2.2.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/stretchr/testify/@v/v1.3.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/stretchr/testify/@v/v1.3.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/stretchr/testify/@v/v1.4.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/stretchr/testify/@v/v1.4.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/ziutek/mymysql/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/ziutek/mymysql/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/ziutek/mymysql/@v/v1.5.4.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/github.com/ziutek/mymysql/@v/v1.5.4.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/go.opencensus.io/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/go.opencensus.io/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/go.opencensus.io/@v/v0.20.1.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/go.opencensus.io/@v/v0.20.1.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/crypto/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/crypto/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/crypto/@v/v0.0.0-20180904163835-0709b304e793.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/crypto/@v/v0.0.0-20180904163835-0709b304e793.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/crypto/@v/v0.0.0-20190308221718-c2843e01d9a2.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/crypto/@v/v0.0.0-20190308221718-c2843e01d9a2.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/crypto/@v/v0.0.0-20190325154230-a5d413f7728c.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/crypto/@v/v0.0.0-20190325154230-a5d413f7728c.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/exp/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/exp/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/exp/@v/v0.0.0-20190121172915-509febef88a4.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/exp/@v/v0.0.0-20190121172915-509febef88a4.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/lint/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/lint/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/lint/@v/v0.0.0-20181026193005-c67002cb31c3.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/lint/@v/v0.0.0-20181026193005-c67002cb31c3.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/lint/@v/v0.0.0-20190227174305-5b3e6a55c961.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/lint/@v/v0.0.0-20190227174305-5b3e6a55c961.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/lint/@v/v0.0.0-20190301231843-5614ed5bae6f.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/lint/@v/v0.0.0-20190301231843-5614ed5bae6f.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/net/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/net/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/net/@v/v0.0.0-20180724234803-3673e40ba225.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/net/@v/v0.0.0-20180724234803-3673e40ba225.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/net/@v/v0.0.0-20180826012351-8a410e7b638d.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/net/@v/v0.0.0-20180826012351-8a410e7b638d.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/net/@v/v0.0.0-20180906233101-161cd47e91fd.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/net/@v/v0.0.0-20180906233101-161cd47e91fd.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/net/@v/v0.0.0-20181114220301-adae6a3d119a.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/net/@v/v0.0.0-20181114220301-adae6a3d119a.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/net/@v/v0.0.0-20190108225652-1e06a53dbb7e.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/net/@v/v0.0.0-20190108225652-1e06a53dbb7e.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/net/@v/v0.0.0-20190125091013-d26f9f9a57f3.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/net/@v/v0.0.0-20190125091013-d26f9f9a57f3.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/net/@v/v0.0.0-20190213061140-3a22650c66bd.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/net/@v/v0.0.0-20190213061140-3a22650c66bd.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/net/@v/v0.0.0-20190311183353-d8887717615a.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/net/@v/v0.0.0-20190311183353-d8887717615a.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/oauth2/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/oauth2/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/oauth2/@v/v0.0.0-20180821212333-d2e6202438be.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/oauth2/@v/v0.0.0-20180821212333-d2e6202438be.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/oauth2/@v/v0.0.0-20190226205417-e64efc72b421.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/oauth2/@v/v0.0.0-20190226205417-e64efc72b421.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/sync/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/sync/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/sync/@v/v0.0.0-20180314180146-1d60e4601c6f.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/sync/@v/v0.0.0-20180314180146-1d60e4601c6f.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/sync/@v/v0.0.0-20181108010431-42b317875d0f.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/sync/@v/v0.0.0-20181108010431-42b317875d0f.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/sync/@v/v0.0.0-20181221193216-37e7f081c4d4.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/sync/@v/v0.0.0-20181221193216-37e7f081c4d4.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/sync/@v/v0.0.0-20190227155943-e225da77a7e6.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/sync/@v/v0.0.0-20190227155943-e225da77a7e6.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/sys/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/sys/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/sys/@v/v0.0.0-20180830151530-49385e6e1522.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/sys/@v/v0.0.0-20180830151530-49385e6e1522.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/sys/@v/v0.0.0-20180905080454-ebe1bf3edb33.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/sys/@v/v0.0.0-20180905080454-ebe1bf3edb33.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/sys/@v/v0.0.0-20180909124046-d0be0721c37e.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/sys/@v/v0.0.0-20180909124046-d0be0721c37e.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/sys/@v/v0.0.0-20181116152217-5ac8a444bdc5.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/sys/@v/v0.0.0-20181116152217-5ac8a444bdc5.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/sys/@v/v0.0.0-20181122145206-62eef0e2fa9b.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/sys/@v/v0.0.0-20181122145206-62eef0e2fa9b.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/sys/@v/v0.0.0-20190215142949-d0b11bdaac8a.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/sys/@v/v0.0.0-20190215142949-d0b11bdaac8a.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/text/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/text/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/text/@v/v0.3.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/text/@v/v0.3.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/text/@v/v0.3.1-0.20180807135948-17ff2d5776d2.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/text/@v/v0.3.1-0.20180807135948-17ff2d5776d2.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/time/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/time/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/time/@v/v0.0.0-20181108054448-85acf8d2951c.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/time/@v/v0.0.0-20181108054448-85acf8d2951c.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/tools/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/tools/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/tools/@v/v0.0.0-20180828015842-6cd1fcedba52.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/tools/@v/v0.0.0-20180828015842-6cd1fcedba52.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/tools/@v/v0.0.0-20190114222345-bf090417da8b.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/tools/@v/v0.0.0-20190114222345-bf090417da8b.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/tools/@v/v0.0.0-20190226205152-f727befe758c.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/tools/@v/v0.0.0-20190226205152-f727befe758c.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/tools/@v/v0.0.0-20190312170243-e65039ee4138.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/golang.org/x/tools/@v/v0.0.0-20190312170243-e65039ee4138.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/google.golang.org/api/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/google.golang.org/api/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/google.golang.org/api/@v/v0.3.1.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/google.golang.org/api/@v/v0.3.1.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/google.golang.org/appengine/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/google.golang.org/appengine/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/google.golang.org/appengine/@v/v1.1.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/google.golang.org/appengine/@v/v1.1.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/google.golang.org/appengine/@v/v1.4.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/google.golang.org/appengine/@v/v1.4.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/google.golang.org/appengine/@v/v1.6.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/google.golang.org/appengine/@v/v1.6.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/google.golang.org/genproto/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/google.golang.org/genproto/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/google.golang.org/genproto/@v/v0.0.0-20180817151627-c66870c02cf8.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/google.golang.org/genproto/@v/v0.0.0-20180817151627-c66870c02cf8.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/google.golang.org/genproto/@v/v0.0.0-20190307195333-5fe7a883aa19.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/google.golang.org/genproto/@v/v0.0.0-20190307195333-5fe7a883aa19.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/google.golang.org/genproto/@v/v0.0.0-20190404172233-64821d5d2107.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/google.golang.org/genproto/@v/v0.0.0-20190404172233-64821d5d2107.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/google.golang.org/grpc/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/google.golang.org/grpc/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/google.golang.org/grpc/@v/v1.17.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/google.golang.org/grpc/@v/v1.17.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/google.golang.org/grpc/@v/v1.19.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/google.golang.org/grpc/@v/v1.19.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/gopkg.in/alecthomas/kingpin.v2/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/gopkg.in/alecthomas/kingpin.v2/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/gopkg.in/alecthomas/kingpin.v2/@v/v2.2.6.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/gopkg.in/alecthomas/kingpin.v2/@v/v2.2.6.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/gopkg.in/check.v1/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/gopkg.in/check.v1/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/gopkg.in/check.v1/@v/v0.0.0-20161208181325-20d25e280405.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/gopkg.in/check.v1/@v/v0.0.0-20161208181325-20d25e280405.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/gopkg.in/check.v1/@v/v1.0.0-20180628173108-788fd7840127.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/gopkg.in/check.v1/@v/v1.0.0-20180628173108-788fd7840127.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/gopkg.in/fatih/set.v0/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/gopkg.in/fatih/set.v0/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/gopkg.in/fatih/set.v0/@v/v0.2.1.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/gopkg.in/fatih/set.v0/@v/v0.2.1.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/gopkg.in/fatih/set.v0/@v/v0.2.1.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/gopkg.in/fatih/set.v0/@v/v0.2.1.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/gopkg.in/fatih/set.v0/@v/v0.2.1.ziphash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/gopkg.in/fsnotify.v1/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/gopkg.in/fsnotify.v1/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/gopkg.in/fsnotify.v1/@v/v1.4.7.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/gopkg.in/fsnotify.v1/@v/v1.4.7.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/gopkg.in/tomb.v1/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/gopkg.in/tomb.v1/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/gopkg.in/tomb.v1/@v/v1.0.0-20141024135613-dd632973f1e7.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/gopkg.in/tomb.v1/@v/v1.0.0-20141024135613-dd632973f1e7.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/gopkg.in/yaml.v2/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/gopkg.in/yaml.v2/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/gopkg.in/yaml.v2/@v/v2.2.1.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/gopkg.in/yaml.v2/@v/v2.2.1.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/gopkg.in/yaml.v2/@v/v2.2.2.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/gopkg.in/yaml.v2/@v/v2.2.2.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/honnef.co/go/tools/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/honnef.co/go/tools/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/honnef.co/go/tools/@v/v0.0.0-20180728063816-88497007e858.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/honnef.co/go/tools/@v/v0.0.0-20180728063816-88497007e858.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/honnef.co/go/tools/@v/v0.0.0-20190102054323-c2f93a96b099.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/honnef.co/go/tools/@v/v0.0.0-20190102054323-c2f93a96b099.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/honnef.co/go/tools/@v/v0.0.0-20190106161140-3f1c8253044a.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/honnef.co/go/tools/@v/v0.0.0-20190106161140-3f1c8253044a.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/xorm.io/builder/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/xorm.io/builder/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/xorm.io/builder/@v/v0.3.6.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/xorm.io/builder/@v/v0.3.6.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/xorm.io/builder/@v/v0.3.6.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/xorm.io/builder/@v/v0.3.6.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/xorm.io/builder/@v/v0.3.6.ziphash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/xorm.io/core/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/xorm.io/core/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/xorm.io/core/@v/v0.7.2-0.20190928055935-90aeac8d08eb.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/xorm.io/core/@v/v0.7.2-0.20190928055935-90aeac8d08eb.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/xorm.io/core/@v/v0.7.2-0.20190928055935-90aeac8d08eb.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/xorm.io/core/@v/v0.7.2-0.20190928055935-90aeac8d08eb.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/download/xorm.io/core/@v/v0.7.2-0.20190928055935-90aeac8d08eb.ziphash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/cache/lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/.github/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/.travis/docker.cnf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/.travis/gofmt.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/.travis/wait_mysql.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/AUTHORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/appengine.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/auth.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/auth_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/benchmark_go18_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/benchmark_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/buffer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/collations.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/connection.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/connection_go18.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/connection_go18_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/connection_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/const.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/driver.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/driver_go18_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/driver_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/dsn.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/dsn_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/errors.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/errors_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/fields.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/infile.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/packets.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/packets_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/result.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/rows.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/statement.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/statement_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/transaction.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/utils.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/utils_go17.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/utils_go18.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/utils_go18_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-sql-driver/mysql@v1.4.1/utils_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/.circleci/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/.drone.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/README_CN.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/cache_lru.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/cache_lru_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/cache_memory_store.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/cache_memory_store_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/cache_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/context_cache.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/convert.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/dialect_mssql.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/dialect_mssql_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/dialect_mysql.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/dialect_oracle.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/dialect_postgres.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/dialect_postgres_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/dialect_sqlite3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/dialect_sqlite3_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/docs/images/cache_design.graffle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/docs/images/cache_design.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/engine.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/engine_cond.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/engine_context.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/engine_context_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/engine_group.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/engine_group_policy.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/engine_table.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/engine_table_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/error.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/examples/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/examples/cache.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/examples/cachegoroutine.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/examples/conversion.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/examples/derive.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/examples/find.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/examples/goroutine.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/examples/maxconnect.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/examples/singlemapping.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/examples/sync.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/examples/tables.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/gen_reserved.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/helpers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/helpers_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/helpler_time.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/interface.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/json.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/logger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/migrate/migrate.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/migrate/migrate_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/pg_reserved.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/processors.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/processors_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/rows.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/rows_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session_cols.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session_cols_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session_cond.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session_cond_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session_context.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session_context_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session_convert.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session_delete.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session_delete_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session_exist.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session_exist_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session_find.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session_find_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session_get.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session_get_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session_insert.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session_insert_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session_iterate.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session_iterate_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session_pk_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session_query.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session_query_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session_raw.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session_raw_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session_schema.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session_schema_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session_stats.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session_stats_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session_tx.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session_tx_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session_update.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session_update_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/statement.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/statement_args.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/statement_columnmap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/statement_exprparam.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/statement_quote.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/statement_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/syslogger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/tag.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/tag_cache_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/tag_extends_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/tag_id_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/tag_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/tag_version_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/test_mssql.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/test_mssql_cache.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/test_mymysql.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/test_mymysql_cache.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/test_mysql.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/test_mysql_cache.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/test_postgres.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/test_postgres_cache.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/test_sqlite.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/test_sqlite_cache.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/test_tidb.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/time_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/transaction.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/transancation_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/types.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/types_null_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/types_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/xorm.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/go-xorm/xorm@v0.7.9/xorm_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/.circleci/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/.github/release-drafter.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/AUTHORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/client_clone.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/client_clone_legacy.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/client_server_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/client_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/compression.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/compression_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/conn.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/conn_broadcast_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/conn_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/conn_write.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/conn_write_legacy.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/example_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/examples/autobahn/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/examples/autobahn/fuzzingclient.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/examples/autobahn/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/examples/chat/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/examples/chat/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/examples/chat/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/examples/chat/hub.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/examples/chat/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/examples/command/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/examples/command/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/examples/command/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/examples/echo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/examples/echo/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/examples/echo/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/examples/filewatch/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/examples/filewatch/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/join.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/join_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/json.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/json_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/mask.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/mask_safe.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/mask_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/prepared.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/prepared_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/proxy.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/server_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/trace.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/trace_17.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/util.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/util_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/github.com/gorilla/websocket@v1.4.1/x_net_proxy.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/gopkg.in/fatih/set.v0@v0.2.1/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/gopkg.in/fatih/set.v0@v0.2.1/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/gopkg.in/fatih/set.v0@v0.2.1/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/gopkg.in/fatih/set.v0@v0.2.1/examples/add_non_thread_safe/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/gopkg.in/fatih/set.v0@v0.2.1/examples/add_thread_safe/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/gopkg.in/fatih/set.v0@v0.2.1/set.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/gopkg.in/fatih/set.v0@v0.2.1/set_nots.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/gopkg.in/fatih/set.v0@v0.2.1/set_nots_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/gopkg.in/fatih/set.v0@v0.2.1/set_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/gopkg.in/fatih/set.v0@v0.2.1/set_ts.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/gopkg.in/fatih/set.v0@v0.2.1/set_ts_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/.drone.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/builder.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/builder_b_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/builder_delete.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/builder_delete_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/builder_insert.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/builder_insert_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/builder_join.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/builder_join_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/builder_limit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/builder_limit_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/builder_select.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/builder_select_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/builder_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/builder_union.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/builder_union_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/builder_update.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/builder_update_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/cond.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/cond_and.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/cond_between.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/cond_compare.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/cond_eq.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/cond_expr.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/cond_if.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/cond_if_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/cond_in.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/cond_like.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/cond_neq.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/cond_not.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/cond_notin.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/cond_null.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/cond_or.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/cond_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/error.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/sql.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/sql_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/testdata/mssql_fiddle_data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/testdata/mysql_fiddle_data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/testdata/oracle_fiddle_data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/builder@v0.3.6/writer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/core@v0.7.2-0.20190928055935-90aeac8d08eb/.circleci/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/core@v0.7.2-0.20190928055935-90aeac8d08eb/.drone.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/core@v0.7.2-0.20190928055935-90aeac8d08eb/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/core@v0.7.2-0.20190928055935-90aeac8d08eb/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/core@v0.7.2-0.20190928055935-90aeac8d08eb/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/core@v0.7.2-0.20190928055935-90aeac8d08eb/benchmark.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/core@v0.7.2-0.20190928055935-90aeac8d08eb/cache.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/core@v0.7.2-0.20190928055935-90aeac8d08eb/column.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/core@v0.7.2-0.20190928055935-90aeac8d08eb/converstion.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/core@v0.7.2-0.20190928055935-90aeac8d08eb/db.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/core@v0.7.2-0.20190928055935-90aeac8d08eb/db_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/core@v0.7.2-0.20190928055935-90aeac8d08eb/dialect.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/core@v0.7.2-0.20190928055935-90aeac8d08eb/driver.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/core@v0.7.2-0.20190928055935-90aeac8d08eb/error.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/core@v0.7.2-0.20190928055935-90aeac8d08eb/filter.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/core@v0.7.2-0.20190928055935-90aeac8d08eb/filter_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/core@v0.7.2-0.20190928055935-90aeac8d08eb/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/core@v0.7.2-0.20190928055935-90aeac8d08eb/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/core@v0.7.2-0.20190928055935-90aeac8d08eb/ilogger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/core@v0.7.2-0.20190928055935-90aeac8d08eb/index.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/core@v0.7.2-0.20190928055935-90aeac8d08eb/mapper.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/core@v0.7.2-0.20190928055935-90aeac8d08eb/mapper_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/core@v0.7.2-0.20190928055935-90aeac8d08eb/pk.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/core@v0.7.2-0.20190928055935-90aeac8d08eb/pk_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/core@v0.7.2-0.20190928055935-90aeac8d08eb/rows.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/core@v0.7.2-0.20190928055935-90aeac8d08eb/scan.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/core@v0.7.2-0.20190928055935-90aeac8d08eb/stmt.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/core@v0.7.2-0.20190928055935-90aeac8d08eb/table.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/core@v0.7.2-0.20190928055935-90aeac8d08eb/table_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/core@v0.7.2-0.20190928055935-90aeac8d08eb/tx.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/pkg/mod/xorm.io/core@v0.7.2-0.20190928055935-90aeac8d08eb/type.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/src/awesomeProject/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/src/awesomeProject/.idea/awesomeProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/src/awesomeProject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/src/awesomeProject/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第一课go语言特点/mpa联系统计字符串中单词个数.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第二课go语言应用方法/结构体的使用.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一课go语言特点/07map使用.go" beforeDir="false" afterPath="$PROJECT_DIR$/第一课go语言特点/07map使用.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,14 +862,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
-    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/第一课go语言特点" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="go.vgo" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -99,7 +886,7 @@
       <recent name="D:\Gostudy\GO_IM" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build 07map使用.go">
+  <component name="RunManager" selected="Go Build.test">
     <configuration name="go build 07map使用.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Gostudy" />
       <working_directory value="$PROJECT_DIR$" />
@@ -127,21 +914,22 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+    <configuration name="go build github.com/zhanggh8023/Gostudy/第一课go语言特点" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Gostudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/第一课go语言特点/1.go" />
-      <package value="Gostudy/第一课go语言特点" />
+      <filePath value="$PROJECT_DIR$/第一课go语言特点/mpa联系统计字符串中单词个数.go" />
+      <package value="github.com/zhanggh8023/Gostudy/第一课go语言特点" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <configuration name="test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="Gostudy" />
       <working_directory value="$PROJECT_DIR$" />
+      <useCustomBuildTags value="true" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/第一课go语言特点/05切片的使用.go" />
-      <package value="Gostudy" />
+      <filePath value="$PROJECT_DIR$/第二课go语言应用方法/结构体的使用.go" />
+      <package value="github.com/zhanggh8023/Gostudy" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -155,19 +943,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.test" />
-      <item itemvalue="Go Build.go" />
       <item itemvalue="Go Build.go build Gostudy/第一课go语言特点" />
       <item itemvalue="Go Build.go build HelloWorld.go" />
       <item itemvalue="Go Build.go build 07map使用.go" />
+      <item itemvalue="Go Build.go build github.com/zhanggh8023/Gostudy/第一课go语言特点" />
+      <item itemvalue="Go Build.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.test" />
+        <item itemvalue="Go Build.go build github.com/zhanggh8023/Gostudy/第一课go语言特点" />
         <item itemvalue="Go Build.go build 07map使用.go" />
         <item itemvalue="Go Build.go build Gostudy/第一课go语言特点" />
         <item itemvalue="Go Build.go build HelloWorld.go" />
-        <item itemvalue="Go Build.test" />
-        <item itemvalue="Go Build.go" />
       </list>
     </recent_temporary>
   </component>
@@ -224,54 +1012,74 @@
     <proxy>https://goproxy.io</proxy>
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1506" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594014482424">
+    <state x="-1506" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595212508308">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1506" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594014482424" />
+    <state x="-1506" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1595212508308" />
     <state x="-1134" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594015218344">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1134" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594015218344" />
+    <state x="-1180" y="224" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1595212289404">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1180" y="224" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1595212289404" />
     <state x="-1258" y="144" key="#go_build_Gostudy/第一课go语言特点" timestamp="1594016380064">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1258" y="144" key="#go_build_Gostudy/第一课go语言特点/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594016380064" />
-    <state x="-1061" y="265" width="540" height="509" key="EnvironmentVariablesDialog" timestamp="1594016262463">
+    <state x="-1021" y="147" key="#go_build_github.com/zhanggh8023/Gostudy/第一课go语言特点" timestamp="1595208936872">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1061" y="265" width="540" height="509" key="EnvironmentVariablesDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594016262463" />
-    <state x="-1180" y="274" key="FileChooserDialogImpl" timestamp="1594014283096">
+    <state x="-1021" y="147" key="#go_build_github.com/zhanggh8023/Gostudy/第一课go语言特点/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1595208936872" />
+    <state x="-1021" y="147" key="#go_build_结构体的使用.go" timestamp="1595212228399">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1180" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594014283096" />
-    <state width="578" height="196" key="GridCell.Tab.0.bottom" timestamp="1594707725340">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-1021" y="147" key="#go_build_结构体的使用.go/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1595212228399" />
+    <state x="-1021" y="147" key="#test" timestamp="1595212355648">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="196" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594114004988" />
+    <state x="-1021" y="147" key="#test/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1595212355648" />
+    <state x="-1061" y="265" width="540" height="509" key="EnvironmentVariablesDialog" timestamp="1595212340851">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1061" y="265" width="540" height="509" key="EnvironmentVariablesDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1595212340851" />
+    <state x="-1180" y="274" key="FileChooserDialogImpl" timestamp="1595212658104">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1180" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1595212658104" />
+    <state width="1389" height="261" key="GridCell.Tab.0.bottom" timestamp="1595232713211">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1389" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1595232713211" />
     <state width="578" height="196" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1594707725340" />
-    <state width="578" height="196" key="GridCell.Tab.0.center" timestamp="1594707725339">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1340" height="196" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594114004988" />
-    <state width="578" height="196" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1594707725339" />
-    <state width="578" height="196" key="GridCell.Tab.0.left" timestamp="1594707725339">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1340" height="196" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594114004988" />
-    <state width="578" height="196" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1594707725339" />
-    <state width="578" height="196" key="GridCell.Tab.0.right" timestamp="1594707725339">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1340" height="196" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594114004988" />
-    <state width="578" height="196" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1594707725339" />
-    <state x="-1808" y="161" key="SettingsEditor" timestamp="1594016359039">
+    <state width="1389" height="261" key="GridCell.Tab.0.center" timestamp="1595232713211">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1808" y="161" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594016359039" />
+    <state width="1389" height="261" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1595232713211" />
+    <state width="578" height="196" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1594707725339" />
+    <state width="1389" height="261" key="GridCell.Tab.0.left" timestamp="1595232713211">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1389" height="261" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1595232713211" />
+    <state width="578" height="196" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1594707725339" />
+    <state width="1389" height="261" key="GridCell.Tab.0.right" timestamp="1595232713211">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1389" height="261" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1595232713211" />
+    <state width="578" height="196" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1594707725339" />
+    <state x="-1184" y="206" key="SettingsEditor" timestamp="1595212659725">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1184" y="206" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1595212659725" />
     <state x="-1368" y="252" key="Vcs.Push.Dialog.v2" timestamp="1594114154749">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1368" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594114154749" />
+    <state x="-1060" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1595212973620">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1060" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1595212973620" />
   </component>
   <component name="masterDetails">
     <states>
