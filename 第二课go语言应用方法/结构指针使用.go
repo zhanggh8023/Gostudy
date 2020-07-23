@@ -13,6 +13,12 @@ func TEST(data string) string {
 	return test
 }
 
+func test2(p *Person2) {
+	p.name = "hh"
+	p.age = 888
+	p.sex = 'm'
+}
+
 func main() {
 	var p1 *Person2 = &Person2{"n1", 'f', 19}
 
@@ -26,4 +32,18 @@ func main() {
 	test := "hello!"
 
 	fmt.Println("test:", TEST(test))
+
+	p3 := new(Person2)
+	p3.name = "mike"
+	p3.age = 22
+	p3.sex = 'f'
+	fmt.Printf("p3,type = %T\n", p3)
+	fmt.Println("p3=", p3)
+
+	//fmt.Printf("%p\n",p3)
+	//fmt.Printf("%p\n",p3.name)
+
+	test2(p3)
+	fmt.Println("p3=", p3)
+
 }
