@@ -19,14 +19,101 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25b438e9-c841-420c-8ca9-1fe1639b8c98" name="Default Changelist" comment="》更新">
-      <change afterPath="$PROJECT_DIR$/go/nvvp_workspace/test.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第二课go语言应用方法/testFile.xyz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第二课go语言应用方法/写文件操作.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第二课go语言应用方法/字符串处理函数.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第二课go语言应用方法/文件打开和创建.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第二课go语言应用方法/读文件操作.go" afterDir="false" />
+    <list default="true" id="25b438e9-c841-420c-8ca9-1fe1639b8c98" name="Default Changelist" comment="》学习字符串处理函数&#10;》完成文件读写操作，打开创建">
+      <change afterPath="$PROJECT_DIR$/go/nvvp_workspace/go_build_.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/nvvp_workspace/go_build__go.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/nvvp_workspace/test.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/basic/cgo/cgo_demo.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/basic/cgo/lib/go_export.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/basic/cgo/lib/go_export_def.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/basic/cgo/lib/math.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/basic/cgo/lib/print.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/basic/cgo/lib/rand.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/basic/map1/cmap.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/basic/map1/cmap_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/basic/map1/common.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/basic/map1/keys.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/basic/map1/keys_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/basic/map1/omap.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/basic/map1/omap_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/basic/pkginit/initpkg_demo.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/basic/prof/profiling.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/basic/prof/profiling_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/basic/seq.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/basic/set/hash_set.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/basic/set/hash_set_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/basic/set/set.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/basic/set/set_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/basic/set2.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/basic/set2_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/chan1/oneway/phandler.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/cnet/ctcp/base.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/cnet/ctcp/tcp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/cnet/ctcp/tcp_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/helper/ds/showds.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/helper/pds/showpds.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/loadgen/gen.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/loadgen/gen_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/loadgen/lib/base.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/loadgen/lib/caller.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/loadgen/lib/tickets.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/loadgen/log.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/loadgen/testhelper/comm.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/loadgen/testhelper/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/logging/base.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/logging/console_logger.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/logging/log_manager.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/logging/logger_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/logging/tag.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/multiproc/apipe/apipe.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/multiproc/npipe/npipe.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/multiproc/signal/mysignal.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/multiproc/socket/tcpsock.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/pkgtool/envir.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/pkgtool/envir_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/pkgtool/fpath.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/pkgtool/ipath.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/pkgtool/pnode.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/pkgtool/util.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/pkgtool/util_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/sync1/datafile1/datafile1.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/sync1/datafile2/datafile2.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/sync1/datafile3/datafile3.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/sync1/pool/pool_demo.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/testing/bmt/bmt_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/testing/ct/ct_demo.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/testing/et/et_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/testing/rp/rp_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/webcrawler/analyzer/analyzer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/webcrawler/analyzer/parser.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/webcrawler/analyzer/pool.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/webcrawler/base/argument.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/webcrawler/base/data.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/webcrawler/base/error.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/webcrawler/base/logger.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/webcrawler/demo/demo.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/webcrawler/downloader/downloader.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/webcrawler/downloader/pool.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/webcrawler/itempipeline/pipeline.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/webcrawler/itempipeline/processor.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/webcrawler/middleware/chanman.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/webcrawler/middleware/id.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/webcrawler/middleware/pool.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/webcrawler/middleware/stopsign.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/webcrawler/scheduler/cache.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/webcrawler/scheduler/helper.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/webcrawler/scheduler/scheduler.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/webcrawler/scheduler/summary.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/webcrawler/tool/cookie/cookiejar.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一课go语言特点/goc2p/src/webcrawler/tool/monitor.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第二课go语言应用方法/大文件拷贝练习.go" beforeDir="false" afterPath="$PROJECT_DIR$/第二课go语言应用方法/大文件拷贝练习.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,94 +177,81 @@
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/go/nvvp_workspace" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/go" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="go.autoimport" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Gostudy\第一课go语言特点" />
-      <recent name="D:\Gostudy\GO_IM" />
-      <recent name="D:\Gostudy" />
-      <recent name="D:\Gostudy\GO_IM\two" />
-      <recent name="D:\Gostudy\GO_IM\one" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Gostudy\第二课go语言应用方法" />
       <recent name="D:\Gostudy\第一课go语言特点" />
       <recent name="D:\Gostudy\GO_IM\IM\hello" />
       <recent name="D:\Gostudy\GO_IM\3" />
       <recent name="D:\Gostudy\GO_IM" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Gostudy" />
+      <recent name="D:\Gostudy\第一课go语言特点" />
+      <recent name="D:\Gostudy\GO_IM" />
+      <recent name="D:\Gostudy\GO_IM\two" />
+      <recent name="D:\Gostudy\GO_IM\one" />
+    </key>
   </component>
-  <component name="RunManager" selected="Go Build.test">
-    <configuration name="TEST" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="Gostudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/第二课go语言应用方法/结构体传参练习.go" />
-      <package value="github.com/zhanggh8023/Gostudy/第二课go语言应用方法" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+  <component name="RunManager">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false">
       <module name="Gostudy" />
       <working_directory value="$PROJECT_DIR$/go" />
       <go_parameters value="-i" />
-      <useCustomBuildTags value="true" />
+      <sudo value="true" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/" />
-      <package value="github.com/zhanggh8023/Gostudy" />
-      <directory value="$PROJECT_DIR$/" />
       <output_directory value="$PROJECT_DIR$/go/nvvp_workspace" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" temporary="true">
+    <configuration name="go build 大文件拷贝练习.go" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="Gostudy" />
       <working_directory value="$PROJECT_DIR$" />
-      <useCustomBuildTags value="true" />
+      <sudo value="true" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/第二课go语言应用方法/读文件操作.go" />
-      <package value="github.com/zhanggh8023/Gostudy/第二课go语言应用方法" />
-      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/第二课go语言应用方法/大文件拷贝练习.go" />
       <output_directory value="$PROJECT_DIR$/go/nvvp_workspace" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+    <configuration name="go build 字符串处理函数.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Gostudy" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/第二课go语言应用方法/结构指针使用.go" />
-      <package value="github.com/zhanggh8023/Gostudy/第二课go语言应用方法" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="Gostudy" />
-      <working_directory value="$PROJECT_DIR$" />
+      <sudo value="true" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/第二课go语言应用方法/字符串处理函数.go" />
-      <package value="github.com/zhanggh8023/Gostudy/第二课go语言应用方法" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="Gostudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <useCustomBuildTags value="true" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/第二课go语言应用方法/文件打开和创建.go" />
-      <package value="github.com/zhanggh8023/Gostudy/第二课go语言应用方法" />
-      <directory value="$PROJECT_DIR$/" />
       <output_directory value="$PROJECT_DIR$/go/nvvp_workspace" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+    <configuration name="go build 写文件操作.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Gostudy" />
       <working_directory value="$PROJECT_DIR$" />
+      <useCustomBuildTags value="true" />
+      <sudo value="true" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/第二课go语言应用方法/写文件操作.go" />
-      <package value="github.com/zhanggh8023/Gostudy/第二课go语言应用方法" />
-      <directory value="$PROJECT_DIR$/" />
+      <output_directory value="$PROJECT_DIR$/go/nvvp_workspace" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 读文件操作.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Gostudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <useCustomBuildTags value="true" />
+      <sudo value="true" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/第二课go语言应用方法/读文件操作.go" />
+      <output_directory value="$PROJECT_DIR$/go/nvvp_workspace" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 写文件操作.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Gostudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <useCustomBuildTags value="true" />
+      <sudo value="true" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/第二课go语言应用方法/写文件操作.go" />
       <output_directory value="$PROJECT_DIR$/go/nvvp_workspace" />
       <method v="2" />
     </configuration>
@@ -200,17 +274,9 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Go Build.test" />
-      <item itemvalue="Go Build.TEST" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.test" />
-        <item itemvalue="Go Build.test" />
-        <item itemvalue="Go Build.test" />
-        <item itemvalue="Go Build.test" />
-        <item itemvalue="Go Build.TEST" />
+        <item itemvalue="Go Build.go build 大文件拷贝练习.go" />
       </list>
     </recent_temporary>
   </component>
@@ -245,6 +311,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/第一课go语言特点/goc2p" />
+    </ignored-roots>
     <MESSAGE value="start study" />
     <MESSAGE value="HelloWorld.exe for build" />
     <MESSAGE value="bulid for HelloWorld.exe" />
@@ -258,7 +327,9 @@
     <MESSAGE value="》结构体变量使用" />
     <MESSAGE value="》结构体传参练习" />
     <MESSAGE value="》更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="》更新" />
+    <MESSAGE value="》学习字符串处理函数&#10;》完成文件读写操作，打开创建" />
+    <MESSAGE value="》完成写文件操作&#10;》完成大文件拷贝联系" />
+    <option name="LAST_COMMIT_MESSAGE" value="》完成写文件操作&#10;》完成大文件拷贝联系" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -270,25 +341,41 @@
     <proxy>https://goproxy.io</proxy>
   </component>
   <component name="WindowStateProjectService">
+    <state x="797" y="226" width="484" height="604" key="#Build_Tags_&amp;_Vendoring" timestamp="1595575942297">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="797" y="226" width="484" height="604" key="#Build_Tags_&amp;_Vendoring/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595575942297" />
+    <state x="720" y="178" key="#Deployment" timestamp="1595577119031">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="720" y="178" key="#Deployment/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595577119031" />
     <state x="816" y="375" key="#Notifications" timestamp="1595406911291">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="816" y="375" key="#Notifications/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595406911291" />
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595561112449">
+    <state x="644" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595581862876">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1506" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1595212508308" />
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595561112449" />
-    <state x="786" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595556058999">
+    <state x="644" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595581862876" />
+    <state x="786" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595580879591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1134" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594015218344" />
-    <state x="786" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595556058999" />
-    <state x="740" y="224" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1595555815226">
+    <state x="786" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595580879591" />
+    <state x="740" y="224" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1595571796834">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1180" y="224" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1595212289404" />
-    <state x="740" y="224" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595555815226" />
+    <state x="740" y="224" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595571796834" />
+    <state x="741" y="147" key="#go_build" timestamp="1595571862838">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="741" y="147" key="#go_build/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595571862838" />
+    <state x="741" y="144" key="#go_build_D:/Gostudy/第二课go语言应用方法" timestamp="1595575092094">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="741" y="144" key="#go_build_D:/Gostudy/第二课go语言应用方法/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595575092094" />
     <state x="635" y="137" key="#go_build_Gostudy" timestamp="1595555456117">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -301,10 +388,10 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1021" y="147" key="#go_build_github.com/zhanggh8023/Gostudy/第一课go语言特点/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1595208936872" />
-    <state x="635" y="137" key="#go_build_github.com/zhanggh8023/Gostudy/第二课go语言应用方法" timestamp="1595560983527">
+    <state x="635" y="137" key="#go_build_github.com/zhanggh8023/Gostudy/第二课go语言应用方法" timestamp="1595578506521">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="635" y="137" key="#go_build_github.com/zhanggh8023/Gostudy/第二课go语言应用方法/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595560983527" />
+    <state x="635" y="137" key="#go_build_github.com/zhanggh8023/Gostudy/第二课go语言应用方法/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595578506521" />
     <state x="-1021" y="147" key="#go_build_结构体的使用.go" timestamp="1595212228399">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -313,62 +400,62 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1021" y="147" key="#test/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1595212355648" />
-    <state x="859" y="265" width="632" height="509" key="EnvironmentVariablesDialog" timestamp="1595555757564">
+    <state x="859" y="265" width="632" height="509" key="EnvironmentVariablesDialog" timestamp="1595581038681">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1061" y="265" width="540" height="509" key="EnvironmentVariablesDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1595212340851" />
-    <state x="859" y="265" width="632" height="509" key="EnvironmentVariablesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595555757564" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1595560085746">
+    <state x="859" y="265" width="632" height="509" key="EnvironmentVariablesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595581038681" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1595581825302">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1180" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1595212658104" />
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595560085746" />
-    <state width="1389" height="367" key="GridCell.Tab.0.bottom" timestamp="1595561772347">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595581825302" />
+    <state width="1389" height="272" key="GridCell.Tab.0.bottom" timestamp="1595582109875">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1389" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1595232713211" />
-    <state width="1389" height="367" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595561772347" />
-    <state width="1389" height="367" key="GridCell.Tab.0.center" timestamp="1595561772347">
+    <state width="1389" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595582109875" />
+    <state width="1389" height="272" key="GridCell.Tab.0.center" timestamp="1595582109874">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1389" height="261" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1595232713211" />
-    <state width="1389" height="367" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595561772347" />
-    <state width="1389" height="367" key="GridCell.Tab.0.left" timestamp="1595561772347">
+    <state width="1389" height="272" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595582109874" />
+    <state width="1389" height="272" key="GridCell.Tab.0.left" timestamp="1595582109874">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1389" height="261" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1595232713211" />
-    <state width="1389" height="367" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595561772347" />
-    <state width="1389" height="367" key="GridCell.Tab.0.right" timestamp="1595561772347">
+    <state width="1389" height="272" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595582109874" />
+    <state width="1389" height="272" key="GridCell.Tab.0.right" timestamp="1595582109875">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1389" height="261" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1595232713211" />
-    <state width="1389" height="367" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595561772347" />
-    <state width="1389" height="190" key="GridCell.Tab.1.bottom" timestamp="1595555708486">
+    <state width="1389" height="272" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595582109875" />
+    <state width="1389" height="258" key="GridCell.Tab.1.bottom" timestamp="1595576858187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1389" height="190" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595555708486" />
-    <state width="1389" height="190" key="GridCell.Tab.1.center" timestamp="1595555708486">
+    <state width="1389" height="258" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595576858187" />
+    <state width="1389" height="258" key="GridCell.Tab.1.center" timestamp="1595576858187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1389" height="190" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595555708486" />
-    <state width="1389" height="190" key="GridCell.Tab.1.left" timestamp="1595555708486">
+    <state width="1389" height="258" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595576858187" />
+    <state width="1389" height="258" key="GridCell.Tab.1.left" timestamp="1595576858186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1389" height="190" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595555708486" />
-    <state width="1389" height="190" key="GridCell.Tab.1.right" timestamp="1595555708486">
+    <state width="1389" height="258" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595576858186" />
+    <state width="1389" height="258" key="GridCell.Tab.1.right" timestamp="1595576858187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1389" height="190" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595555708486" />
-    <state x="736" y="206" key="SettingsEditor" timestamp="1595561066265">
+    <state width="1389" height="258" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595576858187" />
+    <state x="597" y="95" key="SettingsEditor" timestamp="1595582126824">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1184" y="206" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1595212659725" />
-    <state x="736" y="206" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595561066265" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1595492457330">
+    <state x="597" y="95" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595582126824" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1595577077889">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1368" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594114154749" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595492457330" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595577077889" />
     <state x="860" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1595560681365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
