@@ -34,7 +34,7 @@ func main() {
 		io.SeekEnd: 文件结尾位置
 	返回值：表示从文件起始位置，到当前文件读写指针位置的偏移量。
 	off, _ := f.Seek(-5, io.SeekEnd)*/
-	v, _ := t.Seek(-5, io.SeekEnd)
+	v, _ := t.Seek(5, io.SeekEnd)
 	fmt.Println("v:", v)
 
 	o, _ := t.WriteAt([]byte("11111"), v)
