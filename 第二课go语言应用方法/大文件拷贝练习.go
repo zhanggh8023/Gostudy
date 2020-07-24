@@ -37,7 +37,7 @@ func main() {
 			fmt.Printf("reading n = %d\n", n)
 			return
 		}
-		f_w.Write(buf[:n])
+		f_w.Write(buf[:n]) // 读多少，写多少
 		fmt.Printf("reading n = %d\n", n)
 	}
 

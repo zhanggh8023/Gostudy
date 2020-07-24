@@ -1,3 +1,3 @@
-module github.com/zhanggh8023/Gostudy
+module Gostudy
 
-go 1.12
+go 1.14
