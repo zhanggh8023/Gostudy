@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25b438e9-c841-420c-8ca9-1fe1639b8c98" name="Default Changelist" comment="》理解go.mod的使用方法和配置">
-      <change afterPath="$PROJECT_DIR$/go/nvvp_workspace/go_build_example_go.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -332,26 +331,26 @@
     </state>
     <state x="-1180" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1595212658104" />
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595583524773" />
-    <state width="1389" height="272" key="GridCell.Tab.0.bottom" timestamp="1595585068178">
+    <state width="1389" height="272" key="GridCell.Tab.0.bottom" timestamp="1597139837295">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1389" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1595232713211" />
-    <state width="1389" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595585068178" />
-    <state width="1389" height="272" key="GridCell.Tab.0.center" timestamp="1595585068178">
+    <state width="1389" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597139837295" />
+    <state width="1389" height="272" key="GridCell.Tab.0.center" timestamp="1597139837295">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1389" height="261" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1595232713211" />
-    <state width="1389" height="272" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595585068178" />
-    <state width="1389" height="272" key="GridCell.Tab.0.left" timestamp="1595585068178">
+    <state width="1389" height="272" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597139837295" />
+    <state width="1389" height="272" key="GridCell.Tab.0.left" timestamp="1597139837295">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1389" height="261" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1595232713211" />
-    <state width="1389" height="272" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595585068178" />
-    <state width="1389" height="272" key="GridCell.Tab.0.right" timestamp="1595585068178">
+    <state width="1389" height="272" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597139837295" />
+    <state width="1389" height="272" key="GridCell.Tab.0.right" timestamp="1597139837295">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1389" height="261" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1595232713211" />
-    <state width="1389" height="272" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595585068178" />
+    <state width="1389" height="272" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597139837295" />
     <state width="1389" height="258" key="GridCell.Tab.1.bottom" timestamp="1595576858187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
